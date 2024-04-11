@@ -49,13 +49,29 @@
 .navbar-btn{
     border-radius: 50px;
 }
-/*********img fluid**********/
+/*********section-1**********/
 .section-1{
  background-image: url('../image/Rectangle2803.png');
   margin-top:135px;
   width:100%;
 background-size: cover;
 } 
+.img-1{
+    position: relative;
+    bottom:220px;
+    left:1060px;
+}
+.img-2{
+    position: relative;
+    top:410px;
+    right:400px;
+    border: 1px solid black;
+}
 
+.img-3{
+    position: relative;
+    bottom:150px;
+    left: px;
+}
 
-/*********img fluid**********/
+/*********section-1**********/
