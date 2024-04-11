@@ -1,11 +1,15 @@
-.container-box{
-    width: 1208px;
-    margin:0 148px;
+ .html{
+    width: 100vw;
+    height: 100vw;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1208px;
+    --bs-gutter-x:0rem;
 }
 .navbar-line{
     border-bottom: 1px solid #eaeaea;
     width: 1208px;
-    height: 86px;
+    height: 86px; 
 }
 .navbar-brand img{
     width: 201px;
@@ -24,3 +28,18 @@
 .navbar-btn{
     border-radius: 50px;
 }
+/*********img fluid**********/
+.img-fluid{
+    background-image: url('../image/Rectangle2803.png');
+    width: 1208px;
+  height: 593px;
+  background-size: cover;
+    background-position: center;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+
+/*********img fluid**********/
