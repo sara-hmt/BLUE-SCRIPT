@@ -1,0 +1,17 @@
+.container-box{
+    width: 1208px;
+    margin:0 148px;
+}
+.navbar-line{
+    border-bottom: 1px solid #eaeaea;
+    width: 1208px;
+    height: 86px;
+}
+.navbar-brand img{
+    width: 201px;
+    height: 72px;
+    margin: 0 97px 0 0;
+}
+.container-fluid{
+    --bs-gutter-x: 0rem;
+}
