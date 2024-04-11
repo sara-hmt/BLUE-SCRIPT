@@ -1,7 +1,28 @@
- .html{
-    width: 100vw;
-    height: 100vw;
-}
+ Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+    .section-1 {background-image:none;}
+  }
+  
+   Small devices (portrait tablets and large phones, 600px and up)
+  @media only screen and (min-width: 600px) {
+    .section-1 {background-image: none;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .section-1 {width: 768px; height: 450px;}
+  }  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .section-1 {width: 992px; height: 550px;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .section-1 {width: 1208px; height: 593px;}
+  } 
+
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1208px;
     --bs-gutter-x:0rem;
@@ -29,17 +50,12 @@
     border-radius: 50px;
 }
 /*********img fluid**********/
-.img-fluid{
-    background-image: url('../image/Rectangle2803.png');
-    width: 1208px;
-  height: 593px;
-  background-size: cover;
-    background-position: center;
-
-  display: flex;
-  justify-content: center;
-
-}
+.section-1{
+ background-image: url('../image/Rectangle2803.png');
+  margin-top:135px;
+  width:100%;
+background-size: cover;
+} 
 
 
 /*********img fluid**********/
