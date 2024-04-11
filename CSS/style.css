@@ -65,13 +65,16 @@ background-size: cover;
     position: relative;
     top:410px;
     right:400px;
-    border: 1px solid black;
 }
 
 .img-3{
     position: relative;
     bottom:150px;
-    left: px;
+    left:430px;
 }
-
+.img-4{
+    position: relative;
+    top:330px;
+    right:810px;
+}
 /*********section-1**********/
