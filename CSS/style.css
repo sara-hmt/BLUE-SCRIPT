@@ -15,3 +15,12 @@
 .container-fluid{
     --bs-gutter-x: 0rem;
 }
+.nav-link{
+    padding:37px 35px 40px 0;
+}
+.nav-item{
+    padding:0 35px 0 0;
+}
+.navbar-btn{
+    border-radius: 50px;
+}
