@@ -16,19 +16,21 @@
   @media only screen and (min-width: 768px) {
     .section-1 {width: 768px; height: 450px;}
     .section-11  {width: 768px; height: 450px;}
-    .section-12  {width: 768px; height: 450px;}
+    .section-12 {display:none;}
   }  
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    .section-1, .section-11, .section-12 {width: 992px; height: 550px;}
+    .section-1, .section-11{width: 992px; height: 550px;}
+    .section-12 {display:none;}
+
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     .section-1 {width: 1208px; height: 593px;}
     .section-11 {width: 1208px; height: 593px;}
-    .section-12 {width: 1208px; height: 593px;}
+    .section-12 {display:block;}
   } 
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1208px;
@@ -62,6 +64,9 @@
   margin-top:135px;
   width:100%;
   background-size: cover;
+  color: white;
+  font-family: Poppins;
+  font-size: 14px;
 } 
  .section-11{
     margin-top:135px;
