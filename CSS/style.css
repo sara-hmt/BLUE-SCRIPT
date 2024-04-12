@@ -1,28 +1,35 @@
- Extra small devices (phones, 600px and down)
+ /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .section-1 {background-image:none;}
+    .section-1 {display:block;}
+    .section-11 {display:block;}
+    .section-12 {display:none;}
   }
   
-   Small devices (portrait tablets and large phones, 600px and up)
+   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    .section-1 {background-image: none;}
+    .section-1 {display:block;}
+    .section-11 {display:block;}
+    .section-12 {display:none;}
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .section-1 {width: 768px; height: 450px;}
+    .section-11  {width: 768px; height: 450px;}
+    .section-12  {width: 768px; height: 450px;}
   }  
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    .section-1 {width: 992px; height: 550px;}
+    .section-1, .section-11, .section-12 {width: 992px; height: 550px;}
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     .section-1 {width: 1208px; height: 593px;}
+    .section-11 {width: 1208px; height: 593px;}
+    .section-12 {width: 1208px; height: 593px;}
   } 
-
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1208px;
     --bs-gutter-x:0rem;
@@ -54,9 +61,16 @@
  background-image: url('../image/Rectangle2803.png');
   margin-top:135px;
   width:100%;
-background-size: cover;
+  background-size: cover;
 } 
-.img-1{
+ .section-11{
+    margin-top:135px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(5, 3, 17, 0.44) 2%, rgba(4, 3, 17, 0.66) 52%, rgba(4, 3, 17, 0.46) 100%);
+    position: relative;
+    z-index: 5;
+  } 
+/* .img-1{
     position: relative;
     bottom:220px;
     left:1060px;
@@ -76,5 +90,5 @@ background-size: cover;
     position: relative;
     top:330px;
     right:810px;
-}
+} */
 /*********section-1**********/
