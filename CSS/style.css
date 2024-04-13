@@ -70,36 +70,6 @@
   font-family: Poppins;
   src: url("../font/Poppins-Regular.ttf");
 }
-@font-face {
-  font-family: 'icomoon';
-  src:  url('../font/icomoon.eot?8gtr8e');
-  src:  url('../font/icomoon.eot?8gtr8e#iefix') format('embedded-opentype'),
-    url('../font/icomoon.ttf?8gtr8e') format('truetype'),
-    url('../font/icomoon.woff?8gtr8e') format('woff'),
-    url('../font/icomoon.svg?8gtr8e#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-play3:before {
-  content: "\ea1c";
-}
 
 .container,
 .container-lg,
@@ -195,5 +165,14 @@
   position: relative;
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.2);
+}
+.video-logo-1{
+  width: 54.4px;
+  height: 54.4px;
+  flex-grow: 0;
+  padding: 18.4px 16.3px 18.4px 20.4px;
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
 }
 /*********section-1**********/
