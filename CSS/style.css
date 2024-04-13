@@ -1,106 +1,199 @@
- /* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .section-1 {display:block;}
-    .section-11 {display:block;}
-    .section-12 {display:none;}
+  .section-1 {
+    display: block;
   }
-  
-   /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    .section-1 {display:block;}
-    .section-11 {display:block;}
-    .section-12 {display:none;}
+  .section-11 {
+    display: block;
   }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    .section-1 {width: 768px; height: 450px;}
-    .section-11  {width: 768px; height: 450px;}
-    .section-12 {display:none;}
-  }  
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    .section-1, .section-11{width: 992px; height: 550px;}
-    .section-12 {display:none;}
-
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    .section-1 {width: 1208px; height: 593px;}
-    .section-11 {width: 1208px; height: 593px;}
-    .section-12 {display:block;}
+  .section-12 {
+    display: none;
   }
-   
-@font-face {
-    font-family: Poppins;
-    src: url('../font/Poppins-Regular.ttf');
 }
 
-
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1208px;
-    --bs-gutter-x:0rem;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-1 {
+    display: block;
+  }
+  .section-11 {
+    display: block;
+  }
+  .section-12 {
+    display: none;
+  }
 }
-.navbar-line{
-    border-bottom: 1px solid #eaeaea;
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-1 {
+    width: 768px;
+    height: 450px;
+  }
+  .section-11 {
+    width: 768px;
+    height: 450px;
+  }
+  .section-12 {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .section-1,
+  .section-11 {
+    width: 992px;
+    height: 550px;
+  }
+  .section-12 {
+    display: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .section-1 {
     width: 1208px;
-    height: 86px; 
+    height: 593px;
+  }
+  .section-11 {
+    width: 1208px;
+    height: 593px;
+  }
+  .section-12 {
+    display: block
+  }
 }
-.navbar-brand img{
-    width: 201px;
-    height: 72px;
-    margin: 0 97px 0 0;
+
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins-Regular.ttf");
 }
-.container-fluid{
-    --bs-gutter-x: 0rem;
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.eot?8gtr8e');
+  src:  url('../font/icomoon.eot?8gtr8e#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?8gtr8e') format('truetype'),
+    url('../font/icomoon.woff?8gtr8e') format('woff'),
+    url('../font/icomoon.svg?8gtr8e#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
-.nav-link{
-    padding:37px 35px 40px 0;
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.nav-item{
-    padding:0 35px 0 0;
+
+.icon-play3:before {
+  content: "\ea1c";
 }
-.navbar-btn{
-    border-radius: 50px;
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 1208px;
+  --bs-gutter-x: 0rem;
 }
+.navbar-line {
+  border-bottom: 1px solid #eaeaea;
+  width: 1208px;
+  height: 86px;
+}
+.navbar-brand img {
+  width: 201px;
+  height: 72px;
+  margin: 0 97px 0 0;
+}
+.container-fluid {
+  --bs-gutter-x: 0rem;
+}
+.nav-link {
+  padding: 37px 35px 40px 0;
+}
+.nav-item {
+  padding: 0 35px 0 0;
+}
+.navbar-btn {
+  border-radius: 50px;
+}
+
 /*********section-1**********/
-.section-1{
- background-image: url('../image/Rectangle2803.png');
-  margin-top:135px;
-  width:100%;
+.section-1 {
+  background-image: url("../image/Rectangle2803.png");
+  margin-top: 135px;
+  width: 100%;
   background-size: cover;
   color: white;
   font-family: Poppins;
   font-size: 14px;
-} 
- .section-11{
-    margin-top:135px;
-    width: 100%;
-    background-image: linear-gradient(to right, rgba(5, 3, 17, 0.44) 2%, rgba(4, 3, 17, 0.66) 52%, rgba(4, 3, 17, 0.46) 100%);
-    position: relative;
-    z-index: 5;
-  } 
-/* .img-1{
-    position: relative;
-    bottom:220px;
-    left:1060px;
 }
-.img-2{
+.section-11 {
+  margin-top: 135px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(5, 3, 17, 0.44) 2%,
+    rgba(4, 3, 17, 0.66) 52%,
+    rgba(4, 3, 17, 0.46) 100%
+  );
+  position: relative;
+  z-index: 5;
+}
+.section-12{
+    width: 100%;
     position: relative;
-    top:410px;
-    right:400px;
+    bottom: 300px;
 }
 
-.img-3{
-    position: relative;
-    bottom:150px;
-    left:430px;
+.img-1 {
+  position: relative;
+  bottom: 445px;
+  left: 1060px;
+  z-index: 9;
 }
-.img-4{
-    position: relative;
-    top:330px;
-    right:810px;
-} */
+.img-2 {
+  position: relative;
+  top: 182px;
+  right: 390px;
+  z-index: 9;
+
+}
+.img-3 {
+  position: relative;
+  bottom: 370px;
+  left: 438px;
+  z-index: 10;
+
+}
+.img-4 {
+  position: relative;
+  top: 105px;
+  right: 810px;
+  z-index: 10;
+
+}
+
+.video-logo{
+  width: 68px;
+  height: 68px;
+  position: relative;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.2);
+}
 /*********section-1**********/
