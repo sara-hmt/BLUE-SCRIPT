@@ -162,17 +162,24 @@
 .video-logo{
   width: 68px;
   height: 68px;
-  position: relative;
-  z-index: 10;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-.video-logo-1{
-  width: 54.4px;
-  height: 54.4px;
   flex-grow: 0;
-  padding: 18.4px 16.3px 18.4px 20.4px;
-  background-color: #fff;
+  margin: 0 20px 0 0;
+  padding: 6.8px 6.8px 6.8px 6.8px;
+  background-color: rgba(255, 255, 255, 0.2);;
   position: relative;
   z-index: 10;
+  border-radius: 50px;
+}
+
+.play{
+ font-size: 63px;
+  position: relative;
+  bottom: 175px;
+  z-index: 11;
+}
+.video-logo p{
+  text-align: left;
+  display: inline;
+  color: #000;
 }
 /*********section-1**********/
