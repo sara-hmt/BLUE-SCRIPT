@@ -113,24 +113,17 @@
 .icon-linkedin2:before {
   content: "\eaca";
 }
+/*********body**********/
+body{
+  margin: 0!important;
+  width: 100vw;
+}
 
 
 
+/*********body**********/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*********section: navbar**********/
 .container,
 .container-lg,
 .container-md,
@@ -162,6 +155,11 @@
 .navbar-btn {
   border-radius: 50px;
 }
+/*********section: navbar**********/
+
+
+
+
 
 /*********section-1**********/
 .section-1 {
@@ -252,9 +250,11 @@ margin-top: 87px;
 text-align: center;
 }
 /*********section-2**********/
-/*********footer**********/
+/*********section: contact us**********/
+
+
+/*********section: contact us**********/
 
 
 
 
-/*********footer**********/
